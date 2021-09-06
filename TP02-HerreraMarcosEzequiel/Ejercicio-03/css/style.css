@@ -1,0 +1,68 @@
+/* Global styles */
+body {
+    font-family: arial, sans-serif;  
+}
+
+h1 {
+    text-align: center;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+/* Main */
+
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 100%;
+    min-height: 80vh;
+    padding-left: 5vw; 
+    padding-right: 5vw;
+}
+
+.boxContainer {
+    border: 1px solid royalblue;
+    border-radius: 3px;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.blueText {
+    color: cornflowerblue;
+}
+
+/* Table */
+.criptoTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {background: rgb(125, 193, 194);}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+.footerText {
+    font-size: 1.1rem;
+}
+
+/* Media queries */
+@media screen and (max-width: 400px) {
+    .boxContainer {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+}

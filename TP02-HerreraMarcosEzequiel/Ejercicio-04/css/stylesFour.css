@@ -1,0 +1,40 @@
+/* Global styles */
+body {
+    font-family: arial, sans-serif;  
+}
+
+h1 {
+    text-align: center;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+/* Main */
+.mainDelRegistro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 100%;
+    min-height: 80vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.patenteContainer {
+    border: 1px solid royalblue;
+    border-radius: 3px;
+    padding: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+.footerText {
+    font-size: 1.1rem;
+}

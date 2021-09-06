@@ -1,0 +1,41 @@
+/* Global styles */
+p {
+    text-align: center;
+}
+
+/* Main*/
+main {
+    width: 100%;
+    min-height: 80vh;
+    background-color: whitesmoke;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mainSection {
+    width: 20rem;
+    height: 4rem;
+    border-radius: 8px;
+    background-color: #ffc107;
+    box-shadow: 1px 1px 3px 1px red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainSection:hover {
+    transform: scale(1.1);
+}
+
+.mainText {
+    color: #212529;
+    font-size: 2rem;
+}
+
+/* Footer */
+.footerText {
+    font-size: 1.1rem;
+}

@@ -1,0 +1,50 @@
+/* Global styles */
+body {
+    font-family: arial, sans-serif;  
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 80vh;
+}
+
+.reciboDeSueldo {
+    border: 1px solid royalblue;
+    border-radius: 3px;
+    padding: 1rem;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ticketTitle {
+    text-align: center;
+}
+
+.flexEndText {
+    text-align: end;
+}
+
+td, th {
+    border: 1px solid rgb(20, 20, 20);
+    padding: 8px;
+}
+
+/* Footer */
+.footerText {
+    text-align: center;
+    font-size: 1.1rem;
+}

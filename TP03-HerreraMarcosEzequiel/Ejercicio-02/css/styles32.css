@@ -1,0 +1,47 @@
+/* Global styles */
+.boldText {
+    font-weight: bold;
+}
+
+/* Main */
+.main32 {
+    display: flex;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-top: 1rem;
+    min-height: 80vh;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.boxContainer32 {
+    min-width: 40vw;
+    max-height: 20vh;
+    border: 1px solid #212529;
+    border-radius: 3px;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 1px 1px 3px 1px rgb(83, 82, 82);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Footer & Header */
+footer, header {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.footerText, .headerText {
+    background-color: #212529;
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
